@@ -18,7 +18,6 @@ app.get('/', (_req, res) => {
 
 // POST /ingest
 app.post('/ingest', (req, res) => {
-  console.log('📥 Received event:', req.body);
   const { timestamp, sessionId, intent, latencyMs, success, confidence } = req.body;
 
   if (

@@ -1,16 +1,8 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
 import { Event } from './llm';
 
-dotenv.config();
-
-const TARGET_URL = process.env.TARGET_URL;
-
 export async function sendEventToIngest(event: Event): Promise<void> {
-  if (!TARGET_URL) {
-    console.error('🛑 TARGET_URL is not defined in .env');
-    return;
-  }
+  const TARGET_URL = 'http://3.142.49.14:8080/ingest';
 
   try {
     const response = await axios.post(TARGET_URL, event, {
