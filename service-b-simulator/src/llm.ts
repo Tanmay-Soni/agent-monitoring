@@ -2,7 +2,7 @@ import axios from 'axios';
 import dotenv from 'dotenv';
 dotenv.config();
 
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = "" //Please use your own API Key. Groq provides free api key
 const MODEL = 'llama3-8b-8192';
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
