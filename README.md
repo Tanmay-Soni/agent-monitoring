@@ -1,4 +1,4 @@
-# Domu Agent Monitoring System
+# An Agent Monitoring System
 
 A real-time voice agent monitoring system consisting of two microservices that track and analyze voice interaction events.
 
@@ -11,7 +11,7 @@ A real-time voice agent monitoring system consisting of two microservices that t
 
 ### Base URL
 [http://3.142.49.14:8080](http://3.142.49.14:8080)
-
+(AWS Cluster has been deactivate, link wouldn't work until activated again)
 
 ### 1. POST /ingest
 Ingests voice agent events for monitoring and analysis.
