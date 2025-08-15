@@ -185,3 +185,8 @@ Every roadblock became a learning point, and by the end of it, I walked away wit
    ```
 
 The system is designed for high-throughput, low-latency monitoring of voice agent interactions with robust error handling and efficient resource management.
+
+## High Level Design Diagram:
+The below diagram is a representation of how the backend interactions take place, and the AWS cloud deployment using ECR and ECS:
+
+<img width="696" height="660" alt="Screenshot 2025-08-05 at 10 14 10 AM" src="https://github.com/user-attachments/assets/04baa8fe-616c-48da-806e-5fe49aa7175e" />
